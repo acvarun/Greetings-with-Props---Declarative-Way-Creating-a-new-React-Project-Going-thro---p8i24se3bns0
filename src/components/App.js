@@ -3,10 +3,12 @@ import '../styles/App.css';
 import Welcome from './Welcome';
 
 const App = () => {
+  let name="Varun"
   return (
-    <Welcome name="" />
+    <Welcome name={name} />
   )
 }
 
 
 export default App;
+
